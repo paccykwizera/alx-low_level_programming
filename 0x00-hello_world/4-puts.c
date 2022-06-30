@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- *
- *  * main_function - prints
- *
- *   */
+ *  main_function - prints
+ */
 int main(void)
 {
 
