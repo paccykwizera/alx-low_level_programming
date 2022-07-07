@@ -19,7 +19,8 @@ printf("%lu, ", b);
 for (d = 3; d < 89; d++)
 {
 printf("%lu, ", c);
-a = b;																	b = c;
+a = b;
+b = c;
 c = a + b;
 }
 b1 = b / 1000000000;
