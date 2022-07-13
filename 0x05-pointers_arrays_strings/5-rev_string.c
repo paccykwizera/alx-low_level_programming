@@ -3,30 +3,24 @@
 
 
 /**
- * rev_string - Reverses a strin
- * @s: The string to be modified
- * Return: void
+ * rev_string - prints a string in reverse
+ * @s: the used string to beb reversed
+ * Return: 0
  */
 
 void rev_string(char *s)
 
 {
-int i, c, k;
-char *a, aux;
-a = s;
-while (s[c] != '\0')
+int len, i, half;
+char temp;
+for (len = 0; s[len] != '\0'; len++);
+i = 0;
+half = len / 2;
+while (half--)
 {
-c++;
-}
-for (k = 1; k < c; k++)
-{
-a++;
-}
-for (i = 0; i < (c / 2); i++)
-{
-aux = s[i];
-s[i] = *a;
-*a = aux;
-a--;
+temp = s[len - i - 1];
+s[len - i - 1] = s[i];
+s[i] = temp;
+i++;
 }
 }
