@@ -9,7 +9,6 @@
  */
 
 void rev_string(char *s)
-
 {
 int len, i, half;
 char temp;
