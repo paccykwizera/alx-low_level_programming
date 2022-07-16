@@ -5,9 +5,9 @@
 
 
 /**
- * rot13 - encodes a string using rot13.
- * @s: 
- * Return: Always 0.
+ * rot13 - ...
+ * @s: ...
+ * Return: ...
  */
 
 char *rot13(char *s)
