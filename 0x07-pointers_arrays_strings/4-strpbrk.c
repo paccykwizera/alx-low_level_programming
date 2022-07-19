@@ -5,7 +5,7 @@
 /**
  * _strpbrk - search a string for any of a set of bytes
  * @s: source string
- * @accept: accepted characters
+ * @accept: accepted character
  * Return: the string since the first found accepted character
  */
 
@@ -16,7 +16,8 @@ while (s[a])
 {
 b = 0;
 while (accept[b])
-{																	if (s[a] == accept[b])
+{
+if (s[a] == accept[b])
 {
 s += a;
 return (s);
