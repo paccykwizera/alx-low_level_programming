@@ -5,7 +5,6 @@
 int check_palindrome(char *s);
 
 
-
 /**
  * is_palindrome - Returns if a string is palindrome
  * @s: the string value to be checked
