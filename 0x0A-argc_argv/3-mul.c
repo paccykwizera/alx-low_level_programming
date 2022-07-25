@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 int a, b, c;
 if (argc != 3)
 {
-puts("Error");
+puts("Error\n");
 return (1);
 }
 a = atoi(argv[1]);
