@@ -4,10 +4,8 @@
 
 void first(void) __attribute__ ((constructor));
 
-
-
 /**
- * first - ...
+ * first - function.
  * Return: Nothing.
  */
 
