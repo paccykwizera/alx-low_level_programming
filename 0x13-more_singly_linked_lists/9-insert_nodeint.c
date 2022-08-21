@@ -40,7 +40,8 @@ count++;
 }
 if (idx > count)
 return (NULL);
-}																	else
+}
+else
 {
 new_node->next = *head;
 *head = new_node;
