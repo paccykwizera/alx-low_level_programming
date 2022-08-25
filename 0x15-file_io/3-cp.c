@@ -30,8 +30,7 @@ exit(0);
  * @dest:...
  * Return: ...
  */
-
-void copy_file(const char *src, const char *dest)
+void copy_file - program that copies file(const char *src, const char *dest)
 {
 int ofd, tfd, readed;
 char buff[1024];
