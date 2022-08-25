@@ -24,13 +24,13 @@ exit(0);
 
 
 
-/*
+/**
  * copy_file - program that copies the content of file.
  * @src: ...
  * @dest:...
  * Return: ...
  */
-void copy_file - program that copies file(const char *src, const char *dest)
+void copy_file(const char *src, const char *dest)
 {
 int ofd, tfd, readed;
 char buff[1024];
